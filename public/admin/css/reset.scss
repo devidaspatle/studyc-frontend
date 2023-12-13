@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arvo', serif;
+    font-size: 0.93rem;
+    line-height: 1.8;
+    font-weight: 600;
+    color: #6b6b6b;
+    color: #454545;
+    background-color: #fff;
+}
+
+/* ----------------------------------------------------------
+:: Mixin CSS
+---------------------------------------------------------- */
+@mixin transition ($property) {
+    -webkit-transition: $property;
+    -moz-transition: $property;
+    -ms-transition: $property;
+    -o-transition: $property;
+    transition: $property;
+}
+
+@mixin transform ($property) {
+    -webkit-transform: $property;
+    -moz-transform: $property;
+    -ms-transform: $property;
+    -o-transform: $property;
+    transform: $property;
+}
+
+@mixin animation ($property) {
+    -webkit-animation: $property;
+    -moz-animation: $property;
+    -ms-animation: $property;
+    -o-animation: $property;
+    animation: $property;
+}
+
+/* ----------------------------------------------------------
+:: Common CSS
+---------------------------------------------------------- */
+
+
+$orange-color:#ee8018;
+$yellow-color:#f1bc04;
+$white-color: #fff;
+$black-color: #000;
+
+
+.white-color {
+    color: $white-color !important;
+}
+
+.orange-color{
+    color: $orange-color !important;
+}
+
+.yellow-color{
+    color: $yellow-color !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Arvo', serif;
+    color: #283a5e;
+    margin: 0;
+    line-height: 1.5em;
+}
+
+ul{
+    li{
+        list-style: none;
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+
+    100% {
+        transform: translateY(-5px) scale(1.2);
+    }
+}
+
+.title-dash{
+    h4{
+        font-size: 1.5rem;
+        color: #272223;
+    }
+    ul{
+        font-size: .83rem;
+        margin-left: -29px;
+        .breadcrum{
+            margin-left: 10px;
+            color: #6b6b6b;
+            text-decoration: none;
+                font-weight: 500;
+        }
+    }
+}

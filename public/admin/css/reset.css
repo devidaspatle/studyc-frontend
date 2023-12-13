@@ -1,0 +1,30 @@
+body {
+  font-family: 'Arvo', serif;
+  font-size: 0.93rem;
+  line-height: 1.8;
+  font-weight: 600;
+  color: #6b6b6b;
+  color: #454545;
+  background-color: #fff; }
+
+/* ----------------------------------------------------------
+:: Mixin CSS
+---------------------------------------------------------- */
+/* ----------------------------------------------------------
+:: Common CSS
+---------------------------------------------------------- */
+.white-color {
+  color: #fff !important; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arvo', serif;
+  color: #283a5e;
+  margin: 0;
+  line-height: 1.5em; }
+
+/*# sourceMappingURL=reset.css.map */
